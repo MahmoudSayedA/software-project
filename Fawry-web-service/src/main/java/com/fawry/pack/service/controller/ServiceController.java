@@ -2,6 +2,7 @@ package com.fawry.pack.service.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,7 +15,9 @@ import com.fawry.pack.user.handler.UserHandler;
 
 @RestController
 public class ServiceController {
+    @Autowired
     private ServiceHandler serviceHandler;
+    @Autowired
     private UserHandler userHandler;
     public ServiceController(ServiceHandler serviceHandler) {
         this.serviceHandler = serviceHandler;

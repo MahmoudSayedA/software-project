@@ -1,5 +1,6 @@
 package com.fawry.pack.serviceProvider.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,7 +10,9 @@ import com.fawry.pack.serviceProvider.handler.ServiceProviderHandler;
 import com.fawry.pack.user.handler.UserHandler;
 @RestController
 public class ServiceProviderController {
+    @Autowired
     ServiceProviderHandler serviceProviderHandler;
+    @Autowired
     private UserHandler userHandler;
     public ServiceProviderController(ServiceProviderHandler serviceProviderHandler) {
         this.serviceProviderHandler = serviceProviderHandler;

@@ -1,9 +1,9 @@
 # software-project phase2
 ### contributers
-20200498	Mahmoud Sayed Ashore	mahmoudsayed1332002@gmail.com
-20201203	Nourhan Amr Abdelwahab Fathy	noramr318@gmail.com
-20201041	Aya Hasanin Sayed AbdElmageed 	ayaayad162002@gmail.com
-20190109	Omnia Magdy Othman Ahmed	Omniamagdi21@gmail.com
+20200498	Mahmoud Sayed Ashore	{mail}[mahmoudsayed1332002@gmail.com]
+20201203	Nourhan Amr Abdelwahab Fathy	{mail}[noramr318@gmail.com]
+20201041	Aya Hasanin Sayed AbdElmageed 	{mail}[ayaayad162002@gmail.com]
+20190109	Omnia Magdy Othman Ahmed	{mail}[Omniamagdi21@gmail.com]
 
 ### version
 this repo contain a maven project made with java 17 spring boot 3.0.1
@@ -40,18 +40,18 @@ it contains all test cases for the system apis.
  so you need to first make a user or an admin before you can use some of the api functionalties.
  
  
- -in (serchService) service parameter can be : (Mobile,Internet,Landline,Donations)
+ - in (serchService) service parameter can be : (Mobile,Internet,Landline,Donations)
 
- -in (Request refund)  service parameter as an object contains ammount serviceInfo-> serviceName
+ - in (Request refund)  service parameter as an object contains ammount serviceInfo-> serviceName
  
- -in (acceptRefund)and(rejectRefudn) parameter can be refundId
+ - in (acceptRefund)and(rejectRefudn) parameter can be refundId
  
- -in (addProvider) parameters : providerName, serviceId
+ - in (addProvider) parameters : providerName, serviceId
 					  
- -in (addDiscount) prameters is an opject contains {discount ammount, serviceName}
+ - in (addDiscount) prameters is an opject contains {discount ammount, serviceName}
 
- -in (cach payment) prameter : providerName, ammount
- -in (creditCard payment) prameter :providerName, ammount, credit card number
- -in (wallet payment) prameter : providerName, ammount
+ - in (cach payment) prameter : providerName, ammount
+ - in (creditCard payment) prameter :providerName, ammount, credit card number
+ - in (wallet payment) prameter : providerName, ammount
  
 
